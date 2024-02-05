@@ -1,0 +1,6 @@
+../Core/Src/lcd.c:10:6:LCD_init	1
+../Core/Src/lcd.c:46:6:LCD_command	1
+../Core/Src/lcd.c:71:6:LCD_write_char	1
+../Core/Src/lcd.c:96:6:LCD_write_string	2
+../Core/Src/lcd.c:105:6:LCD_set_cursor	2
+../Core/Src/lcd.c:115:6:latch_falling_edge	1

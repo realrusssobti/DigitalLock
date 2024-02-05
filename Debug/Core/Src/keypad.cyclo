@@ -1,0 +1,4 @@
+../Core/Src/keypad.c:14:6:initKeypad	1
+../Core/Src/keypad.c:31:5:readKeypad	27
+../Core/Src/keypad.c:129:6:readChar	2
+../Core/Src/keypad.c:138:6:decodeKey	2
