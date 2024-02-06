@@ -98,10 +98,14 @@ int main(void) {
     LCD_init();
     char* line_one = malloc(17);
     char* line_two = malloc(17);
-	strcpy(line_one, "Hello World");
-	strcpy(line_two, "Assignment 3");
+	strcpy(line_one, "Project 1");
+	strcpy(line_two, "Digi-Lock");
 	displayLCD(line_one, line_two);
-
+	HAL_Delay(1000);
+	strcpy(line_one, "By Russ Sobti");
+	strcpy(line_two, "& Armaan Oberai");
+	displayLCD(line_one, line_two);
+	HAL_Delay(2000);
 
 	// Initial state
 	enum State currentState = POWER_UP;
